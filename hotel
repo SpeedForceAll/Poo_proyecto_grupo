@@ -1,1 +1,23 @@
-bxczxczxczc
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package reservas;
+
+/**
+ *
+ * @author JUAN ALDAIR
+ */
+public class hotel implements reserva,pago{
+    private int id;
+    private double precio;
+    private String disponibilidad;
+    
+    public hotel(){}
+    public abstract String estaDisponible();
+    public abstract double calcularPrecio();
+    public abstract String Reservar();
+    
+    
+    
+}
