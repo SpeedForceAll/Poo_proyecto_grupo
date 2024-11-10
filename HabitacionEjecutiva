@@ -1,0 +1,10 @@
+public class HabitacionEjecutiva extends Hotel {
+
+    public void serviciosVip() {
+        System.out.println("Servicios VIP activados para habitación ejecutiva.");
+    }
+
+    public void añadirServiciosLujo() {
+        System.out.println("Servicios de lujo añadidos a la habitación ejecutiva.");
+    }
+}
