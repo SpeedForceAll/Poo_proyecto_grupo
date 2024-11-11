@@ -2,7 +2,7 @@ public class Hotel {
     private boolean[] habitaciones;
 
     public Hotel(int numHabitaciones) {
-        habitaciones = new boolean[numHabitaciones]; // false = disponible, true = reservado
+        habitaciones = new boolean[numHabitaciones];
     }
 
     public boolean disponibilidadH(int habitacion) {
@@ -12,16 +12,16 @@ public class Hotel {
     public boolean realizarReserva(int habitacion) {
         if (disponibilidadH(habitacion)) {
             habitaciones[habitacion] = true;
-            return true; // reserva exitosa
+            return true;
         }
-        return false; // no disponible
+        return false;
     }
 
     public boolean cancelarReserva(int habitacion) {
         if (!disponibilidadH(habitacion)) {
             habitaciones[habitacion] = false;
-            return true; // cancelación exitosa
+            return true; 
         }
-        return false; // no estaba reservado
+        return false;
     }
 }
