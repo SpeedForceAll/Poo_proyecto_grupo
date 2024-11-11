@@ -1,0 +1,30 @@
+public class habitacionEstandar extends hotel {
+
+    // Métodos específicos de la clase habitacionEstandar
+    public void aplicarDescuento() {
+        // Lógica para aplicar un descuento a la tarifa
+    }
+
+    public void ofrecerPromociones() {
+        // Lógica para ofrecer promociones a los clientes
+    }
+
+    // Implementación de los métodos heredados de la clase hotel
+    @Override
+    public boolean estaDisponible() {
+        // Lógica para verificar si la habitación estándar está disponible
+        return super.estaDisponible();
+    }
+
+    @Override
+    public double calcularPrecio() {
+        // Lógica para calcular el precio de la habitación estándar
+        return super.calcularPrecio();
+    }
+
+    @Override
+    public void reservar() {
+        // Lógica para realizar la reserva de una habitación estándar
+        super.reservar();
+    }
+}
