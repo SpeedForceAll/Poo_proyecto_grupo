@@ -1,0 +1,57 @@
+public class Cliente extends Hotel {
+    private String Contraseña;
+    private String Nombre;
+    private String Apellido;
+    private String Email;
+    
+    //constructores
+    public Cliente(){
+    }
+    
+    //get(),set()
+    public String getContraseña() {
+        return Contraseña;
+    }
+
+    public void setContraseña(String Contraseña) {
+        this.Contraseña = Contraseña;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public String getApellido() {
+        return Apellido;
+    }
+
+    public void setApellido(String Apellido) {
+        this.Apellido = Apellido;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String Email) {
+        this.Email = Email;
+    }
+    
+    //metodos auxiliares propios de la clase
+    public void registrarse(){
+        System.out.println("Registro exitoso. . .");
+    }
+    
+    public void historialReservas(){
+        System.out.println("Ingresando al historial. . .");
+    }
+    
+    public void actualizarDatosPersonales(){
+        System.out.println("Actualizacion exitosa. . .");
+    }
+
+} //fin de clase Cliente
