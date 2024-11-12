@@ -1,0 +1,12 @@
+public class HabitacionMultiple extends Hotel {
+ 
+    //metodos auxiliares propios de la clase
+    public void serviciosVIP(){
+        System.out.println("Servicios VIP en Habitacion Multiple exitosa. . .");
+    }
+    
+    public void añadirServiciosLujo(){
+        System.out.println("Servicios Lujo implementados. . .");
+    }
+    
+} //fin de clase HabitacionMultiple
